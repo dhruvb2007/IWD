@@ -1,4 +1,8 @@
-$conn = mysqli_connect("localhost", "root", "", "test");
+$host = "localhost";
+$user = "root";
+$pass = "";
+$databse = "test";
+$conn = mysqli_connect($host, $user, $pass, $database);
 
 // INSERT
 $name = "Dhruv";
