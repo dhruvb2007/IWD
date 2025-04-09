@@ -1,3 +1,5 @@
+<?php
+
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -25,3 +27,6 @@ $sql = "DELETE FROM users WHERE id=1";
 mysqli_query($conn, $sql);
 
 mysqli_close($conn);
+
+
+?>
